@@ -18,10 +18,20 @@ body {
     height: 99vh;
 }
 
-#calc {
+.wrapper {
+    width: 20rem;
+    height: 30rem;
+    text-align: center;
     position: absolute;
     top: 50%; left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+#calc {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
     width: 20rem;
     height: 30rem;
     border: 1px solid #1d1d1d;

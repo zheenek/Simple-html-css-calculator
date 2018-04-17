@@ -1,8 +1,7 @@
 @media screen and (max-width: 600px) {
     #calc {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%,-50%) scale(.85);
+        position: relative;
+        transform: scale(.9);
     }
     
     .digit-btn {

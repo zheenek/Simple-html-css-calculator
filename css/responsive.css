@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
     .wrapper {
-        transform: scale(.9) translate(-55%,-50%);
+        top: 50%; left: 45%;
+        transform: scale(.9) translate(-50%,-50%);
     }
     
     .digit-btn {

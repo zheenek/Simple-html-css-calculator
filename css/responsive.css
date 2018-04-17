@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px) {
+    .digit-btn {
+        transition: 0;
+    }
+    
+    .digit-btn:active {
+        background-color: #fff;
+    }
+    
+    .sign-btn {
+        transition: 0;
+    }
+    
+    .sign-btn:active {
+        background-color: #ff6392;
+        color: #fff;
+    }
+    
+    .other-btn {
+        transition: 0;
+    }
+    
+    .other-btn:active {
+        background-color: #d5d5d5;
+    }
+}

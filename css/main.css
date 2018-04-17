@@ -102,7 +102,7 @@ main {
     transition: background-color .1s linear;
 }
 
-.digit-btn:hover {
+.digit-btn:hover, .digit-btn:active {
     background-color: #fff;
 }
 
@@ -112,7 +112,7 @@ main {
     transition: background-color .1s linear, color .1s linear;
 }
 
-.sign-btn:hover {
+.sign-btn:hover, .sign-btn:active {
     background-color: #ff6392;
     color: #fff;
 }
@@ -123,7 +123,7 @@ main {
     transition: background-color .1s linear;
 }
 
-.other-btn:hover {
+.other-btn:hover, .other-btn:active {
     background-color: #d5d5d5;
 }
 

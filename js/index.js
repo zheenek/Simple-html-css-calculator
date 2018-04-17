@@ -12,7 +12,7 @@ window.onload = function() {
 
   //Generate The Snowflakes and Apply Attributes
 
-  var mf = 1000; //max number of snowflakes
+  var mf = 250; //max number of snowflakes
   var flakes = [];
 
   //Loop Through The Empty Flakes and Apply Attributes
@@ -62,5 +62,5 @@ window.onload = function() {
       }
     }
   }
-  setInterval(drawFlakes, 15);
+  setInterval(drawFlakes, 20);
 }

@@ -1,0 +1,13 @@
+.col-1-of-4 {
+    display: inline-block;
+    text-align: center;
+    height: 4.75rem;
+    width: 24%;
+}
+
+.col-1-of-2 {
+    display: inline-block;
+    text-align: center;
+    height: 4.75rem;
+    width: 74.6%;
+}

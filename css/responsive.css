@@ -1,6 +1,6 @@
 @media screen and (max-width: 900px) {
     #calc {
-        transform: scale(.65);
+        transform: scale(.8);
     }
     
     .digit-btn {

@@ -1,5 +1,6 @@
 @media screen and (max-width: 600px) {
     #calc {
+        border: 0;
         position: relative;
         transform: scale(.9);
     }

@@ -34,7 +34,6 @@ body {
     margin: 0 auto;
     width: 20rem;
     height: 30rem;
-    border: 1px solid #1d1d1d;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 5px 50px rgba(0,0,0,.2);
@@ -103,6 +102,7 @@ main {
     border: 0;
     font-size: 2rem;
     font-family: "Segoe UI Light", sans-serif;
+    background-color: #ebebeb;
 }
 
 .digit-btn {

@@ -21,7 +21,7 @@ body {
 #calc {
     position: absolute;
     top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
     width: 20rem;
     height: 30rem;
     border: 1px solid #1d1d1d;
@@ -97,33 +97,33 @@ main {
 
 .digit-btn {
     background-color: #f3f3f3;
-    -webkit-transition: background-color .1s linear;
-    -o-transition: background-color .1s linear;
-    transition: background-color .1s linear;
+    -webkit-transition: background-color .1s ease;
+    -o-transition: background-color .1s ease;
+    transition: background-color .1s ease;
 }
 
-.digit-btn:hover, .digit-btn:active {
+.digit-btn:hover {
     background-color: #fff;
 }
 
 .sign-btn {
-    -webkit-transition: background-color .1s linear, color .1s linear;
-    -o-transition: background-color .1s linear, color .1s linear;
-    transition: background-color .1s linear, color .1s linear;
+    -webkit-transition: background-color .1s ease, color .1s ease;
+    -o-transition: background-color .1s ease, color .1s ease;
+    transition: background-color .1s ease, color .1s ease;
 }
 
-.sign-btn:hover, .sign-btn:active {
+.sign-btn:hover {
     background-color: #ff6392;
     color: #fff;
 }
 
 .other-btn {
-    -webkit-transition: background-color .1s linear;
-    -o-transition: background-color .1s linear;
-    transition: background-color .1s linear;
+    -webkit-transition: background-color .1s ease;
+    -o-transition: background-color .1s ease;
+    transition: background-color .1s ease;
 }
 
-.other-btn:hover, .other-btn:active {
+.other-btn:hover {
     background-color: #d5d5d5;
 }
 

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrit-to-fit=no">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+   
+    <form name="calculator" id="calc">
+      <div class="blurred-bg"></div>
+      
+      <main>
+       <div class="input">
+           <input class="input" type="textfield" name="ans" value="" readonly placeholder="0" size="30">
+       </div>
+       
+       <div class="buttons">
+       
+       <div class="reset">
+           <div class="col-1-of-2">
+               <input class="sign-btn digit" type="reset" value="&larr;Reset">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit sign-btn" type="button" value="÷" onclick="document.calculator.ans.value+='/'">
+           </div>
+       </div>
+       
+       <div class="line-1">
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="1" onclick="document.calculator.ans.value+='1'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="2" onclick="document.calculator.ans.value+='2'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="3" onclick="document.calculator.ans.value+='3'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit sign-btn" type="button" value="×" onclick="document.calculator.ans.value+='*'">
+           </div>
+       </div>
+       
+       <div class="line-2">
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="4" onclick="document.calculator.ans.value+='4'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="5" onclick="document.calculator.ans.value+='5'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="6" onclick="document.calculator.ans.value+='6'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit sign-btn" type="button" value="-" onclick="document.calculator.ans.value+='-'">
+           </div>
+       </div>
+       
+       <div class="line-3">
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="7" onclick="document.calculator.ans.value+='7'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="8" onclick="document.calculator.ans.value+='8'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="9" onclick="document.calculator.ans.value+='9'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit sign-btn" type="button" value="+" onclick="document.calculator.ans.value+='+'">
+           </div>
+       </div>
+       
+       <div class="line-4">
+           <div class="col-1-of-4">
+               <input class="digit other-btn" type="button" value="%" onclick="document.calculator.ans.value+='%'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit digit-btn" type="button" value="0" onclick="document.calculator.ans.value+='0'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="digit other-btn" type="button" value="." onclick="document.calculator.ans.value+='.'">
+           </div>
+           
+           <div class="col-1-of-4">
+               <input class="answer-btn digit sign-btn" type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+           </div>
+           </div>
+       </div>
+    </main>              
+       
+</form>
+<canvas id="sky">
+<script src="js/index.js"></script>
+</canvas>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <!--
+        <input wtype="textfield" name="ans" value=""><br>
+        <input type="button" value="1" onclick="document.calculator.ans.value+='1'">
+        <input type="button" value="2" onclick="document.calculator.ans.value+='2'">
+        <input type="button" value="3" onclick="document.calculator.ans.value+='3'">
+        <input type="button" value="+" onclick="document.calculator.ans.value+='+'"><br>
+        <input type="button" value="4" onclick="document.calculator.ans.value+='4'">
+        <input type="button" value="5" onclick="document.calculator.ans.value+='5'">
+        <input type="button" value="6" onclick="document.calculator.ans.value+='6'">
+        <input type="button" value="-" onclick="document.calculator.ans.value+='-'"><br>
+        <input type="button" value="7" onclick="document.calculator.ans.value+='7'">
+        <input type="button" value="8" onclick="document.calculator.ans.value+='8'">
+        <input type="button" value="9" onclick="document.calculator.ans.value+='9'">
+        <input type="button" value="*" onclick="document.calculator.ans.value+='*'"><br>
+        <input type="reset" value="Reset">
+        <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+        <input type="button" value="/" onclick="document.calculator.ans.value+='/'"><br><br>
+        <input type="button" value="Answer" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)"><br>
+        -->
+
+</body>
+</html>

@@ -127,16 +127,16 @@ main {
 
 .digit-btn {
     background-color: #f3f3f3;
-    -webkit-transition: background-color .1s ease;
+    /*-webkit-transition: background-color .1s ease;
     -o-transition: background-color .1s ease;
-    transition: background-color .1s ease;
+    transition: background-color .1s ease;*/
 }
 
-.digit-btn:hover {
+/*.digit-btn:hover {
     background-color: #fff;
-}
+}*/
 
-.sign-btn {
+/*.sign-btn {
     -webkit-transition: background-color .1s ease, color .1s ease;
     -o-transition: background-color .1s ease, color .1s ease;
     transition: background-color .1s ease, color .1s ease;
@@ -155,7 +155,7 @@ main {
 
 .other-btn:hover {
     background-color: #d5d5d5;
-}
+}*/
 
 .input {
     border: 0;
